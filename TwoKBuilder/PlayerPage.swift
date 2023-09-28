@@ -1,14 +1,14 @@
 //
-//  SFPage.swift
+//  PlayerPage.swift
 //  TwoKBuilder
 //
-//  Created by Aleck David Holly on 2023-09-05.
+//  Created by Aleck Holly on 2023-09-28.
 //
 
 import SwiftUI
 import Charts
 
-struct SFPage: View {
+struct PlayerPage: View {
     var playerRating: PlayerRatings
     
     var body: some View {
@@ -136,5 +136,5 @@ struct SFPage: View {
 }
 
 #Preview {
-    SFPage(playerRating: PlayerRatings(id: UUID(),name: "Jayson Tatum", height: "6'8", wingSpan: "6'10", weight: 210, image: .jayson, finishing: Finishing(shotClose: 77, drivingLayup: 84, drivingDunk: 83, standingDunk: 45, postControl: 81), shooting: Shooting(midRange: 82, threePoint: 82, freeThrow: 81), playmaking: Playmaking(passing: 75, ballHandle: 80, speedWBall: 75), defense: Defense(interiorD: 65, perimD: 85, steal: 65, block: 68, offRebound: 40, defRebound: 70), physicals: Physicals(speed: 75, acceleration: 75, strength: 60, vertical: 74, stamina: 93)))
+    PlayerPage(playerRating: PlayerRatings(id: UUID(),name: "Kyrie Irving", height: "6'2", wingSpan: "6'4", weight: 195, image: .kyrieIrving, finishing: Finishing(shotClose: 82, drivingLayup: 91, drivingDunk: 30, standingDunk: 25, postControl: 64), shooting: Shooting(midRange: 91, threePoint: 82, freeThrow: 83), playmaking: Playmaking(passing: 87, ballHandle: 98, speedWBall: 83), defense: Defense(interiorD: 34, perimD: 58, steal: 25, block: 36, offRebound: 35, defRebound: 45), physicals: Physicals(speed: 82, acceleration: 87, strength: 41, vertical: 57, stamina: 99)))
 }

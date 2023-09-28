@@ -36,9 +36,6 @@ struct ContentView: View {
                     Text("Centers")
                 }
         }
-        .onAppear {
-            
-        }
     }
 }
 
