@@ -65,7 +65,7 @@ struct PGPage: View {
             .foregroundColor(.green)
             .chartXScale(domain: 0...99 + 5)
             
-            Text("Playmaking")
+            Text("Playmaking ")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding([.bottom, .top], -3)
